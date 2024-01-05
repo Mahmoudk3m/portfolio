@@ -17,13 +17,19 @@
       background-color: #04263f;
       padding: 8px;
       display: flex;
-      justify-content: center;
+      align-items: center;
+      gap:36%;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
     }
 
     &__mainContent {
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
       backdrop-filter: blur(8px) brightness(110%);
       background-color: rgba(4, 38, 63, 0.5);
-      padding: 0.5rem;
+      padding: 0.6rem;
+
 
       a {
         text-decoration: none;
@@ -51,7 +57,8 @@
 <div class="terminal mt-10">
   <div class="terminal__titleBar">
     <!-- Add your 3 buttons here -->
-    <p>k3m@dev: ~</p>
+      <div class="rounded-full bg-red-400 w-3 h-3"/>
+      <p>k3m@dev: ~</p>
   </div>
   <div class="terminal__mainContent">
     <p class="text-white mb-2"><span>>_</span> {title}</p>
