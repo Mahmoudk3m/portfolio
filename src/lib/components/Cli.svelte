@@ -28,7 +28,7 @@
       border-bottom-right-radius: 10px;
       backdrop-filter: blur(8px) brightness(110%);
       background-color: rgba(4, 38, 63, 0.5);
-      padding: 0.6rem;
+      padding: 16px 8px;
 
 
       a {
@@ -62,8 +62,8 @@
   </div>
   <div class="terminal__mainContent">
     <p class="text-white mb-2"><span>>_</span> {title}</p>
-    <p class="mb-2 text-wrap">{mainText}</p>
-    <ul class="ml-6">
+    <p class="mb-6 text-wrap">{mainText}</p>
+    <ul class="ml-6 mb-4">
       <li>
         <a href="#projects">Past projects</a>
       </li>
