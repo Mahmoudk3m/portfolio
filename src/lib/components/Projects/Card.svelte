@@ -12,7 +12,7 @@
 		</div>
 
 		<div class="card__content__body p-3 bg-steel-blue-50">
-			<div class="flex justify-between">
+			<div class="flex justify-between items-center mb-2">
 				<h1 class="text-4xl">{projectTitle}</h1>
 				<h2 class="text-2xl">{projectDate}</h2>
 			</div>
