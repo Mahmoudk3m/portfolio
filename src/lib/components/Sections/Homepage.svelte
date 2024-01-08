@@ -3,6 +3,7 @@
 	import Notes from '../Animated/Notes/Notes.svelte';
 	import Stars from '../Animated/Stars/Stars.svelte';
 	import Cli from '../Homepage/Cli.svelte';
+	import Image from 'svimg/Image.svelte';
 
 	let screenWidth = 0;
 	let disableAnimations = false;
@@ -23,7 +24,7 @@
 		title={"Hey, I'm Mahmoud"}
 		mainText={'A software engineer passionate about creativity, problem-solving, and tackling new challenges'}
 	/>
-	<img
+	<Image
 		src="/background.png"
 		alt="background"
 		class="absolute -z-10 object-cover object-left w-full h-screen"
