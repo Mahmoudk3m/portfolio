@@ -28,7 +28,7 @@
 		out:fade={{ duration: 500 }}
 		on:introend={toggleVisibility}
 	>
-		<NotesSvg2 className="absolute top-40 left-[30rem]" />
+		<NotesSvg2 className="absolute top-32 left-[30rem]" />
 	</div>
 {/if}
 
