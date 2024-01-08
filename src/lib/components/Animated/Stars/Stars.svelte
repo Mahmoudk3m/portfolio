@@ -5,7 +5,9 @@
 	import Stars4 from './Stars4.svelte';
 </script>
 
-<Stars1 />
-<Stars2 />
-<Stars3 />
-<Stars4 />
+<div class="absolute">
+	<Stars1 />
+	<Stars2 />
+	<Stars3 />
+	<Stars4 />
+</div>

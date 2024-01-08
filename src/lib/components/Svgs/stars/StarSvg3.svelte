@@ -4,6 +4,7 @@
 	width="218"
 	height="160"
 	viewBox="0 0 218 160"
+	preserveAspectRatio="xMidYMid meet"
 >
 	<image
 		width="218"

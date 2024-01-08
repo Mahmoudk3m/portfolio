@@ -2,7 +2,7 @@
 	import StarSvg3 from '../../Svgs/stars/StarSvg3.svelte';
 </script>
 
-<div class="blinking absolute left-72 top-96"><StarSvg3 /></div>
+<div class="blinking absolute right-72 top-80"><StarSvg3 /></div>
 
 <style>
 	@keyframes blink3 {

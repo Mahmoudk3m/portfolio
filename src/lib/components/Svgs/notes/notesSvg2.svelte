@@ -1,9 +1,15 @@
+<script>
+	export let className = '';
+</script>
+
 <svg
 	xmlns="http://www.w3.org/2000/svg"
 	xmlns:xlink="http://www.w3.org/1999/xlink"
 	width="30"
 	height="30"
 	viewBox="0 0 30 30"
+	preserveAspectRatio="xMidYMid meet"
+	class={className}
 >
 	<image
 		width="30"

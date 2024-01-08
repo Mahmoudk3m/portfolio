@@ -28,8 +28,6 @@
 		display: flex;
 		flex-wrap: nowrap;
 		&__content {
-			min-width: 768px;
-
 			&__title {
 				border-top-left-radius: 10px;
 				border-top-right-radius: 10px;

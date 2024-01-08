@@ -23,11 +23,17 @@
 
 {#if isVisible}
 	<div
-		class="absolute right-[25.5rem] bottom-[30rem]"
+		class="svgContainer"
 		in:fly={{ y: 120, duration: 5000 }}
 		out:fade={{ duration: 500 }}
 		on:introend={toggleVisibility}
 	>
-		<NotesSvg1 />
+		<NotesSvg1 className="absolute top-40 left-[30rem]" />
 	</div>
 {/if}
+
+<style>
+	.svgContainer {
+		position: relative;
+	}
+</style>
