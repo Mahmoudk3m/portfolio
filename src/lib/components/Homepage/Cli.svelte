@@ -47,7 +47,7 @@
 				<a href="#contact">Contact me</a>
 			</li>
 		</ul>
-		<p>Enter or click to select</p>
+		<p>Click to select</p>
 	</div>
 </div>
 

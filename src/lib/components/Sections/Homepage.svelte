@@ -1,4 +1,6 @@
 <script>
+	import Notes from '../Animated/Notes/Notes.svelte';
+	import Stars from '../Animated/Stars/Stars.svelte';
 	import Cli from '../Homepage/Cli.svelte';
 </script>
 
@@ -8,4 +10,6 @@
 		title={"Hey, I'm Mahmoud"}
 		mainText={'A software engineer passionate about creativty, problem-solving and tackling new challenges'}
 	/>
+	<Stars />
+	<Notes />
 </section>
