@@ -34,5 +34,3 @@
 		<Notes />
 	{/if}
 </section>
-
-<!-- Atest -->

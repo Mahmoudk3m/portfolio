@@ -47,6 +47,19 @@
 			<a href="mahmoudk3m.mk@gmail.com">Email</a>
 			<span class="arrow">{`>`}</span>
 		</li>
+		<li
+			on:mouseover={() => {
+				handleMouseOver('resume');
+			}}
+			on:focus={() => {
+				handleMouseOver('resume');
+			}}
+			class:link={selectedItem === 'resume'}
+		>
+			<span class="arrow">{`<`}</span>
+			<a href="/Resume.pdf" download>Resume</a>
+			<span class="arrow">{`>`}</span>
+		</li>
 	</ul>
 </div>
 
