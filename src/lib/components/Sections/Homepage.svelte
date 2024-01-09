@@ -26,7 +26,7 @@
 	<img
 		src="/background.png"
 		alt="background"
-		class="absolute -z-10 object-cover object-left w-full h-screen"
+		class="absolute -z-10 object-cover object-center lg:object-left w-full h-screen"
 	/>
 
 	{#if !disableAnimations}
