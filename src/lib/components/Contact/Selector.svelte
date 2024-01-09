@@ -7,7 +7,7 @@
 </script>
 
 <div class="flex justify-center w-full">
-	<ul>
+	<ul class="selector">
 		<li
 			on:mouseover={() => {
 				handleMouseOver('github');
@@ -75,6 +75,7 @@
 	li {
 		display: flex;
 		justify-content: center;
+
 		align-items: center;
 	}
 	ul {
@@ -93,5 +94,15 @@
 	}
 	.link:hover .arrow {
 		visibility: visible;
+	}
+
+	.selector {
+		display: flex;
+		@media (max-width: 568px) {
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			grid-template-rows: 1fr 1fr;
+			grid-gap: 1rem;
+		}
 	}
 </style>

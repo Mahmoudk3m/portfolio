@@ -29,8 +29,8 @@
 		class="absolute -z-10 object-cover object-left w-full h-screen"
 	/>
 
-	<Stars />
 	{#if !disableAnimations}
+		<Stars />
 		<Notes />
 	{/if}
 </section>
