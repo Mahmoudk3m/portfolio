@@ -24,7 +24,7 @@
 		mainText={'A software engineer passionate about creativity, problem-solving, and tackling new challenges'}
 	/>
 	<img
-		src="/background.png"
+		src="/background.webp"
 		alt="background"
 		class="absolute -z-10 object-cover object-center lg:object-left w-full h-screen"
 	/>
