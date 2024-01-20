@@ -18,7 +18,7 @@
 			class:link={selectedItem === 'github'}
 		>
 			<span class="arrow">{`<`}</span>
-			<a href="https://github.com/Mahmoudk3m">Github</a>
+			<a target="_blank" href="https://github.com/Mahmoudk3m">Github</a>
 			<span class="arrow">{`>`}</span>
 		</li>
 		<li
@@ -31,7 +31,7 @@
 			class:link={selectedItem === 'linkedin'}
 		>
 			<span class="arrow">{`<`}</span>
-			<a href="https://www.linkedin.com/in/mahmoudk3m">Linkedin</a>
+			<a target="_blank" href="https://www.linkedin.com/in/mahmoudk3m">Linkedin</a>
 			<span class="arrow">{`>`}</span>
 		</li>
 		<li
@@ -44,7 +44,7 @@
 			class:link={selectedItem === 'mail'}
 		>
 			<span class="arrow">{`<`}</span>
-			<a href="mahmoudk3m.mk@gmail.com">Email</a>
+			<a target="_blank" href="mahmoudk3m.mk@gmail.com">Email</a>
 			<span class="arrow">{`>`}</span>
 		</li>
 		<li
@@ -57,7 +57,7 @@
 			class:link={selectedItem === 'resume'}
 		>
 			<span class="arrow">{`<`}</span>
-			<a href="/Resume.pdf" download>Resume</a>
+			<a target="_blank" href="/Resume.pdf">Resume</a>
 			<span class="arrow">{`>`}</span>
 		</li>
 	</ul>
