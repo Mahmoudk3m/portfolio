@@ -93,17 +93,31 @@ html {
 }
 
 .blinking1 {
-	animation: blink1 5s infinite;
+	animation: blink1 2s infinite;
 }
 
 .blinking2 {
-	animation: blink2 8s infinite;
+	animation: blink2 4s infinite;
 }
 
 .blinking3 {
-	animation: blink3 10s infinite;
+	animation: blink3 7s infinite;
 }
 
 .blinking4 {
-	animation: blink4 13s infinite;
+	animation: blink4 9s infinite;
+}
+
+body::-webkit-scrollbar {
+	display: none;
+}
+
+body {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+	--cursor-color: #fff; /* Change cursor color */
+	--cursor-width: 2px; /* Change cursor width */
 }
