@@ -31,3 +31,79 @@ ul {
 html {
 	scroll-behavior: smooth;
 }
+
+.scene {
+	position: absolute;
+	left: 0;
+	right: 0;
+	height: 100vh;
+	overflow: hidden;
+	z-index: -10;
+}
+
+.scene svg {
+	width: 100vw;
+	height: 100vh;
+	object-fit: cover;
+}
+
+@keyframes blink2 {
+	0%,
+	100% {
+		opacity: 1;
+	}
+	25% {
+		opacity: 0;
+	}
+	75% {
+		opacity: 0;
+	}
+}
+
+@keyframes blink3 {
+	0%,
+	100% {
+		opacity: 1;
+	}
+	33.33% {
+		opacity: 0;
+	}
+	66.66% {
+		opacity: 0;
+	}
+}
+
+@keyframes blink4 {
+	0%,
+	100% {
+		opacity: 1;
+	}
+	20% {
+		opacity: 0;
+	}
+	40% {
+		opacity: 0;
+	}
+	60% {
+		opacity: 0;
+	}
+	80% {
+		opacity: 0;
+	}
+}
+
+.blinking1 {
+	animation: blink1 5s infinite;
+}
+
+.blinking2 {
+	animation: blink2 8s infinite;
+}
+
+.blinking3 {
+	animation: blink3 10s infinite;
+}
+
+.blinking4 {
+	animation: blink4 13s infinite;
+}
