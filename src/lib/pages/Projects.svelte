@@ -2,7 +2,7 @@
 	import Card from '../components/projects/Card.svelte';
 </script>
 
-<section id="projects" class="flex flex-col max-w-screen-md items-start gap-6">
+<section id="projects" class="flex flex-col max-w-screen-md items-start gap-6 mt-12">
 	<h1 class="text-4xl w-fit m-2">Since you asked... Here's my past...</h1>
 	<Card
 		projectTitle={'Conduit'}
