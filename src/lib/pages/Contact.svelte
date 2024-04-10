@@ -8,6 +8,6 @@
 >
 	<Card />
 	<div class="w-screen max-h-72">
-		<img class="w-full object-cover" src="/test.webp" alt="" />
+		<img class="w-full object-cover object-bottom max-h-72" src="/test.webp" alt="" />
 	</div>
 </section>
