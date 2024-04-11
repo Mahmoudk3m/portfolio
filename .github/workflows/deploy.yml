@@ -28,7 +28,7 @@ jobs:
 
       - name: build
         env:
-          BASE_PATH: '/Mahmoudk3m.github.io'
+          BASE_PATH: '/portfolio'
         run: |
           npm run build
 
