@@ -37,7 +37,7 @@
 		<div class="flex flex-col w-full gap-4">
 			<Button text={'Linkedin'} href={'https://www.linkedin.com/in/mahmoudk3m/'} />
 			<Button text={'Github'} href={'https://github.com/Mahmoudk3m'} />
-			<Button text={'Email'} href={'mahmoudk3m.mk@gmail.com'} />
+			<Button text={'Email'} href={'mailto:mahmoudk3m.mk@gmail.com'} />
 			<Button text={'Download Resume'} href={'/resume.pdf'} />
 		</div>
 	</div>
