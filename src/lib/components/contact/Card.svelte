@@ -30,7 +30,7 @@
 	<div
 		class="p-4 flex flex-col justify-between items-center b-top rounded-xl h-[95%] w-[95%] bg-steel-blue"
 	>
-		<h1 class="text-5xl mt-2">Contact Me</h1>
+		<h1 class="text-5xl mt-2">Contact Me!</h1>
 		<Typewriter keepCursorOnFinish interval="150" disabled={disableTypeWriter}>
 			<p class="text-2xl text-center">If you ever get lost again ... You can find me here ...</p>
 		</Typewriter>
