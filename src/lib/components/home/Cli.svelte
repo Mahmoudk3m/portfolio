@@ -25,6 +25,19 @@
 			<ul class="ml-2 mb-4">
 				<li
 					on:mouseover={() => {
+						handleMouseOver('experiences');
+					}}
+					on:focus={() => {
+						handleMouseOver('experiences');
+					}}
+					class:link={selectedItem === 'experiences'}
+				>
+					<span class="arrow">{`->`}</span>
+					<a href="#experiences">Experiences</a>
+				</li>
+
+				<li
+					on:mouseover={() => {
 						handleMouseOver('projects');
 					}}
 					on:focus={() => {
@@ -33,7 +46,7 @@
 					class:link={selectedItem === 'projects'}
 				>
 					<span class="arrow">{`->`}</span>
-					<a href="#projects">Past projects</a>
+					<a href="#projects">projects</a>
 				</li>
 				<li
 					on:mouseover={() => {
