@@ -16,6 +16,20 @@
 	<section id="projects" class="flex flex-col max-w-screen-md items-start gap-6 mt-12">
 		<h2 class="text-4xl w-fite m-2">Projects</h2>
 		<Card
+			projectTitle={'We Cre8'}
+			projectDate={`July 2024`}
+			projectDescription={`Built a high-performance e-commerce website with a focus on intuitive design and seamless shopping experiences. Developed and optimized features like product listings, shopping cart functionality, and secure checkout to drive user engagement and conversions. Ensured responsive design and efficient site performance, enhancing usability across all devices and platforms.`}
+			sourceCode={`https://wecre8.com/`}
+		/>
+
+		<Card
+			projectTitle={'Shop It'}
+			projectDate={`June 2024`}
+			projectDescription={`Maintained and optimized payment gateway integrations, ensuring seamless and secure transaction experiences for customers. Extended the functionality of the open-source e-commerce platform Saleor, customizing features to meet specific business needs. Collaborated on overall platform stability and performance improvements, contributing to a robust and scalable e-commerce solution.`}
+			sourceCode={`https://shopit.sa/en-sa`}
+		/>
+
+		<Card
 			projectTitle={'Capture Peak'}
 			projectDate={`May 2024`}
 			projectDescription={`Architected and developed a full-stack media sharing platform, "Capture Peak," using Node.js, Express.js, React, and React Native within a one-week sprint. Enhanced media handling by implementing CRUD operations and robust file upload management, resulting in a seamless user content experience. Developed a dynamic user profile feature with settings form and image upload functionality, enhancing personalization and user engagement.`}
